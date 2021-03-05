@@ -2,21 +2,30 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>           
-	<link href="style.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"><link href="style/style.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" >
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 	<title>Olá!!</title>
 </head>
 <body>
-	<div class="container row center-align">
-	     <div class="card-panel grey lighten-5 z-depth-1 col s5" id="card1">
-	     	<p>
-	     		<a href="MariaServlet">Informações</a>
-	     	</p>
-	     </div>
-	     <div class="card-panel grey lighten-5 z-depth-1 col s5" id="card2">
-	     	<p><a href="MathServlet">Realize uma operação aritmética</a></p>
-	     </div>
-     </div>
+	<div class="container">
+	<br>
+	<br>
+	<br>
+		<section class="section" id="home">
+				<img id="background" src="style/background.svg" alt="background">
+				<div class="row align-items-center text-center">
+					<div class="col-md-12 col-lg-12 mb-5 mb-md-0">
+						<h1>Seja Bem-Vindo!</h1>
+						<br>
+						<button type="button" class="btn btn-success btn-lg" onclick="location.href = 'MariaServlet';">Informações</button>
+						<button type="button" class="btn btn-default btn-lg" onclick="location.href = 'MathServlet';">Operações</button>
+					</div>
+					<div class="col-md-12 col-lg-12 mb-5 mb-md-0">
+						<img class="img-fluid" src="style/fundo1.png" alt="">
+					</div>
+				</div>
+		</section>
+	</div>
 </body>
 </html>
